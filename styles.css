@@ -6,11 +6,11 @@
   }
 
   .caixa-principal {
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     background-image: url(./img/background.png);
     background-size: cover;
-    background-position: center;
+    background-position: right;
     background-color: #191919;
   }
   
