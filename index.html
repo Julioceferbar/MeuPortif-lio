@@ -13,24 +13,24 @@
 </head>
 
 <body>
-    <div class="caixa-principal">
+    <div class="caixa-principal" id="home-id">
         <nav>
             <h2 class="portifólio">Portifó<span>lio</span></h2>
             <ul>
-                <li><a>Home</a></li>
-                <li><a>Sobre</a></li>
-                <li><a>Projetos</a></li>
-                <li><a>Fale Comigo</a></li>
+                <li><a class="link-menu" href="#home-id">Home</a></li>
+                <li><a class="link-menu" href="#sobre-id">Sobre</a></li>
+                <li><a class="link-menu" href="#projetos-id">Projetos</a></li>
+                <li><a class="link-menu" href="#contato-id">Fale Comigo</a></li>
             </ul>
         </nav>
 
         <div class="meu-nome">
             <h1>Julio <span>Barbosa</span></h1>
-            <h1>Programador Front End</h1>
+            <h3>Programador Front End</h3>
         </div>
     </div>
 
-    <section>
+    <section id="sobre-id">
         <img src="./img/desing1.png" alt="desingImg">
         <div>
             <h2>Sobre mim</h2>
@@ -41,36 +41,56 @@
 
     </section>
 
-    <div class="projetos">
+    <div class="projetos" id="projetos-id">
         <h2>Principais Projetos</h2>
 
-        <div class="card">
-            <img src="./img/netflix.png" alt="netflixImg">
-            <h5>Netfix</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim numquam nostrum animi atque quasi,
-                impedit ea dolor? Ipsum quibusdam consequuntur odit repudiandae autem, incidunt quas. Odio omnis
-                excepturi et quo!</p>
-            <a>Ver Projeto</a>
+        <div class="cardProjetos">
+
+            <div class="card">
+                <img src="./img/netflix.png" alt="netflixImg">
+                <h5>Netfix</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim numquam nostrum animi atque quasi,
+                    impedit ea dolor? Ipsum quibusdam consequuntur odit repudiandae autem, incidunt quas. Odio omnis
+                    excepturi et quo!</p>
+                <a href="" target="_blank">Ver Projeto</a>
+            </div>
+
+            <div class="card">
+                <img src="./img/starbucks.png" alt="starbuksImg">
+                <h5>Starbucks</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim numquam nostrum animi atque quasi,
+                    impedit ea dolor? Ipsum quibusdam consequuntur odit repudiandae autem, incidunt quas. Odio omnis
+                    excepturi et quo!</p>
+                <a href="" target="_blank">Ver Projeto</a>
+            </div>
+
+            <div class="card">
+                <img src="./img/crono.png" alt="cronoImg">
+                <h5>Cronometro</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim numquam nostrum animi atque quasi,
+                    impedit ea dolor? Ipsum quibusdam consequuntur odit repudiandae autem, incidunt quas. Odio omnis
+                    excepturi et quo!</p>
+                <a href="" target="_blank">Ver Projeto</a>
+            </div>
+
         </div>
 
-        <div class="card">
-            <img src="./img/starbucks.png" alt="starbuksImg">
-            <h5>Starbucks</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim numquam nostrum animi atque quasi,
-                impedit ea dolor? Ipsum quibusdam consequuntur odit repudiandae autem, incidunt quas. Odio omnis
-                excepturi et quo!</p>
-            <a>Ver Projeto</a>
-        </div>
-
-        <div class="card">
-            <img src="./img/crono.png" alt="cronoImg">
-            <h5>Cronometro</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim numquam nostrum animi atque quasi,
-                impedit ea dolor? Ipsum quibusdam consequuntur odit repudiandae autem, incidunt quas. Odio omnis
-                excepturi et quo!</p>
-            <a>Ver Projeto</a>
-        </div>
     </div>
+
+    <footer id="contato-id">
+        <h5>Julio Barbosa</h5>
+        <p>Para mais informações</p>
+
+        <div class="contato">
+            <a href="https://www.linkedin.com/in/julioceferbar" target="_blank">
+                <img src="./img/linkedin.png" alt="linkedinImg"></a>
+            <a href="https://wa.me/+5511949314415" target="_blank">
+                <img src="./img/telefone.png" alt="telefoneImg"></a>
+        </div>
+
+
+    </footer>
+
 </body>
 
 </html>
