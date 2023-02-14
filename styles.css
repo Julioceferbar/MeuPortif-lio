@@ -15,7 +15,7 @@ html {
   background-image: url(./img/background.png);
   background-size: cover;
   background-position: center;
-  background-color: #191919;
+  background-color: #353535;
 }
 
 nav {
@@ -91,12 +91,12 @@ section img {
 
 section div h2 {
   color: white;
-  font-size: 75px;
+  font-size: 70px;
 }
 
 section div p {
   color: rgba(247, 248, 242, 0.575);
-  font-size: 24px;
+  font-size: 23px;
   margin-top: 15px;
   margin-bottom: 60px;
 }
@@ -119,7 +119,7 @@ section div button:hover {
 }
 
 .projetos {
-  background-color: #191919;
+  background-color: #353535;
   padding-top: 50px;
   padding-bottom: 100px;
 }
