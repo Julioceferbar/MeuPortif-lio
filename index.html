@@ -8,31 +8,80 @@
     <meta name="description" content="Meu Portifólio ">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="Julio Barbosa">
-    <link rel="stylesheet" href="./styles.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title> Portifólio - Julio Barbosa </title>
+    <!-- Estilos -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
 
 <body>
-    <div class="caixa-principal" id="home-id">
-        <nav>
-            <h2 class="portifólio">Portifó<span>lio</span></h2>
-            <ul>
-                <li><a class="link-menu" href="#home-id">Home</a></li>
-                <li><a class="link-menu" href="#sobre-id">Sobre</a></li>
-                <li><a class="link-menu" href="#projetos-id">Projetos</a></li>
-                <li><a class="link-menu" href="#contato-id">Fale Comigo</a></li>
-            </ul>
-        </nav>
-
-        <div class="meu-nome">
-            <h1>Julio <span>Barbosa</span></h1>
-            <h3> - Programador Front End - </h3>
+    <!-- Header -->
+    <header>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+                <a class="navbar-brand" href="index.html">
+                    <img id="logo" src="imagens/logo.png" alt="Julio Barbosa Dev" width="130">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+                    aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link px-lg-2" id="home-menu" href="index.html">Home</a>
+                        <a class="nav-item nav-link px-lg-2" id="about-menu" href="sobre.html">Sobre</a>
+                        <a class="nav-item nav-link px-lg-2" id="services-menu" href="skills.html">Skills</a>
+                        <a class="nav-item nav-link px-lg-2" id="portfolio-menu" href="projetos.html">Projetos</a>
+                        <a class="nav-item nav-link px-lg-2" id="contact-menu" href="contato.html">Contato</a>
+                    </div>
+                    <div class="social-media-barra">
+                        <a href="https://github.com/julioceferbar/" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/julioceferbar" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=5511949314415" target="_blank "><i
+                                class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </nav>
         </div>
-    </div>
+    </header>
+
+    <main>
+        <div class="container-fluid">
+    
+          <section class="main">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h1>Programador Front End</h1>
+                  <p>Julio Barbosa</p>
+                  <a href="#about-area"><button class="btn-main">Saiba mais</button></a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+  
 
     <section id="sobre-id">
         <img src="./img/desing1.png" alt="desingImg">
@@ -80,7 +129,7 @@
 
         </div>
 
-    </section>
+        </section>
 
         <div class="cardProjetos">
 
@@ -104,7 +153,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                 <a href="" target="_blank">Ver Projeto</a>
             </div>
-                     
+
 
         </div>
 
@@ -118,7 +167,8 @@
             <a href="https://www.linkedin.com/in/julioceferbar" target="_blank" rel="noreferrer noopener" Texto-âncora>
                 <img src="./img/linkedin.png" alt="linkedinImg"></a>
 
-            <a href="https://wa.me/5511949314415?text=Entre%20em%20contato%20comigo" target="_blank" rel="noreferrer noopener" Texto-âncora>
+            <a href="https://wa.me/5511949314415?text=Entre%20em%20contato%20comigo" target="_blank"
+                rel="noreferrer noopener" Texto-âncora>
                 <img src="./img/telefone.png" alt="telefoneImg"></a>
         </div>
 
