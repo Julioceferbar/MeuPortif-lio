@@ -3,20 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Meu Portifólio ">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="Julio Barbosa">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title> Portifólio - Julio Barbosa </title>
     <!-- Estilos -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="apple-touch-icon" href="./img/apple-touch-icon.png">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="manifest" href="./img/site.webmanifest">
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -30,6 +24,7 @@
     <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -38,7 +33,7 @@
         <div class="container" id="nav-container">
             <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
                 <a class="navbar-brand" href="index.html">
-                    <img id="logo" src="imagens/logo.png" alt="Julio Barbosa Dev" width="130">
+                    <img id="logo" src="./img/logo1.png" alt="Julio Barbosa Dev" width="130">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
                     aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,18 +41,24 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
                     <div class="navbar-nav">
-                        <a class="nav-item nav-link px-lg-2" id="home-menu" href="index.html">Home</a>
-                        <a class="nav-item nav-link px-lg-2" id="about-menu" href="sobre.html">Sobre</a>
-                        <a class="nav-item nav-link px-lg-2" id="services-menu" href="skills.html">Skills</a>
-                        <a class="nav-item nav-link px-lg-2" id="portfolio-menu" href="projetos.html">Projetos</a>
-                        <a class="nav-item nav-link px-lg-2" id="contact-menu" href="contato.html">Contato</a>
+                        <a class="nav-item nav-link px-lg-2" id="home-menu" href="index.html"
+                            title="Clique aqui para ir à página inicial">Home</a>
+                        <a class="nav-item nav-link px-lg-2" id="about-menu" href="#about-area"
+                            title="Clique aqui para ir à página sobre">Sobre</a>
+                        <a class="nav-item nav-link px-lg-2" id="services-menu" href="#services-area"
+                            title="Clique aqui para ir à página skils">Skills</a>
+                        <a class="nav-item nav-link px-lg-2" id="portfolio-menu" href="#portfolio-area"
+                            title="Clique aqui para ir à página projetos">Projetos</a>
+                        <a class="nav-item nav-link px-lg-2" id="contact-menu" href="#contact-area"
+                            title="Clique aqui para ir à página contato">Contato</a>
                     </div>
                     <div class="social-media-barra">
-                        <a href="https://github.com/julioceferbar/" title="linkgt" rel="noopener" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/julioceferbar" title="linklk" rel="noopener" target="_blank"><i
-                                class="fab fa-linkedin"></i></a>
-                        <a href="https://api.whatsapp.com/send?phone=5511949314415" title="linkwt" rel="noopener" target="_blank "><i
-                                class="fab fa-whatsapp"></i></a>
+                        <a href="https://github.com/julioceferbar/" title="linkgt" rel="noopener" target="_blank"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/julioceferbar" title="linklk" rel="noopener"
+                            target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=5511949314415" title="linkwt" rel="noopener"
+                            target="_blank "><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
             </nav>
@@ -94,7 +95,7 @@
                                 Olá, meu nome é Julio Cesar, tenho 32 anos estou cursando bacharelado em Engenharia de
                                 Software pela
                                 Universidade Cidade de São Paulo. Atualmente, estou em busca de oportunidades como
-                                desenvolvedor Fullstack para aplicar meus conhecimentos em linguagens de programação
+                                desenvolvedor Front End para aplicar meus conhecimentos em linguagens de programação
                                 como Javascript e TypeScript, Node, SQL Server, Git, HTML, CSS e Sass. Também possuo
                                 conhecimento em metodologias ágeis como Lean, Kanban, Scrum e 5s.
 
@@ -103,12 +104,12 @@
                                 computadores. Fora do ambiente profissional, gosto de praticar atividades físicas, e de
                                 ler sobre tecnologia e novidades do mundo da programação.
                             </p>
-                            <a href="contato.html"><button class="btn-padrao">Entre em contato</button></a>
+                            <a href="#contact-area"><button class="btn-padrao">Entre em contato</button></a>
                             <div class="social-media">
-                                <a href="https://github.com/julioceferbar/" title="linkgt" rel="noopener"target="_blank"><i
-                                        class="fab fa-github "></i></a>
-                                <a href="https://www.linkedin.com/in/julioceferbar" title="linklk" rel="noopener" target="_blank "><i
-                                        class="fab fa-linkedin"></i></a>
+                                <a href="https://github.com/julioceferbar/" title="linkgt" rel="noopener"
+                                    target="_blank"><i class="fab fa-github "></i></a>
+                                <a href="https://www.linkedin.com/in/julioceferbar" title="linklk" rel="noopener"
+                                    target="_blank "><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
@@ -173,7 +174,7 @@
                             <button class="main-btn filter-btn" id="dsg-btn">Design</button>
                         </div>
                         <div class="col-md-6 project-box dev">
-                            <img src="imagens/proj2.jpg" class="img-fluid" alt="Projeto 1">
+                            <img src="./img/proj2.jpg" class="img-fluid" alt="Projeto 1">
                             <div class="card-info ">
                                 <h2>Portfólio Ada Assessoria Jurídica</h2>
                                 <h3>Bootstrap, HTML, CSS</h3>
@@ -184,25 +185,25 @@
                             </div>
                         </div>
                         <div class="col-md-6 project-box dev">
-                            <img src="imagens/proj1.jpg" class="img-fluid" alt="Projeto 2">
+                            <img src="./img/proj1.jpg" class="img-fluid" alt="Projeto 2">
                             <div class="card-info ">
                                 <h2>Recriação Interface Netflix</h2>
                                 <h3>Javascript, HTML, CSS</h3>
                                 <p>Recriação da área de perfis e de catálogo do principal site de streaming mundial.
                                 </p>
-                                <a href="https://github.com/mahcassi/clone-netflix" title="linkgt" rel="noopener" target="_blank "><button
-                                        class="btn ">Saiba
+                                <a href="https://github.com/julioceferbar" linkgt" rel="noopener"
+                                    target="_blank "><button class="btn ">Saiba
                                         Mais</button></a>
                             </div>
                         </div>
                         <div class="col-md-6 project-box dev">
-                            <img src="imagens/proj3.jpg" class="img-fluid" alt="Projeto 3">
+                            <img src="img/proj3.jpg" class="img-fluid" alt="Projeto 3">
                             <div class="card-info ">
                                 <h2>Projeto Teste Bredi</h2>
                                 <h3>Javascript, JQuery, HTML, CSS</h3>
                                 <p>Uma página para teste de estágio da empresa Bredi Tecnologia.</p>
-                                <a href="https://github.com/mahcassi/projeto-bredi" title="linkgt" rel="noopener" target="_blank "><button
-                                        class="btn ">Saiba
+                                <a href="https://github.com/julioceferbar" linkgt" rel="noopener"
+                                    target="_blank "><button class="btn ">Saiba
                                         Mais</button></a>
                             </div>
                         </div>
@@ -234,7 +235,7 @@
                             <i class="fas fa-map-marker-alt"></i>
                             <a
                                 href="https://www.google.com/maps/place/R.+Pr%C3%ADncipe+Feliz,+103+-+Vila+Urupes,+Suzano+-+SP,+08615-210/@-23.5446639,-46.2926631,17z/data=!3m1!4b1!4m15!1m8!3m7!1s0x94cdd81ea4eaf7d9:0xa6ffc15a60e34fd4!2sRua+Delphino+Alves+Greg%C3%B3rio+-+Mogi+das+Cruzes,+SP,+08773-520!3b1!8m2!3d-23.512713!4d-46.1942768!16s%2Fg%2F1ymysh5q0!3m5!1s0x94ce70aa29e5eff3:0xe2fef87d2bf4beb!8m2!3d-23.5446688!4d-46.2904744!16s%2Fg%2F11c19fyh3h">
-                                <p>Rua Principe Feliz, 103 - Vila Urupês, 08615-210, Suzano - SP,
+                                <p>Suzano - SP,
                                     Brasil</p>
                             </a>
                         </div>
@@ -246,7 +247,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 fixed-bottom">
-                        <a href="https://api.whatsapp.com/send?phone=5511949314415" title="linkwt"id="link">
+                        <a href="https://api.whatsapp.com/send?phone=5511949314415" title="linkwt" id="link">
                             <i class="fab fa-whatsapp"></i>
                         </a>
                     </div>
@@ -261,13 +262,14 @@
                         <div class="row py-4 d-flex align-items-center">
                             <div class="col-md-12 text-center">
                                 <p class="f-paragrafo">Onde me encontrar:</p>
-                                <a href="https://github.com/julioceferbar/" title="linkgt" rel="noopener" target=" _blank"><i
-                                        class="fab fa-github"></i></a>
-                                <a href="https://www.linkedin.com/in/julioceferbar/" title="linklk" rel="noopener" target=" _blank"><i
-                                        class="fab fa-linkedin"></i></a>
-                                <a href="https://www.instagram.com/ju10_ces4r/" title="linkit" rel="noopener" target=" _blank"><i
-                                        class="fab fa-instagram"></i></a>
-                                <a href="https://web.whatsapp.com/send?phone=5511949314415text=" title="linkwt" rel="noopener" target="
+                                <a href="https://github.com/julioceferbar/" title="linkgt" rel="noopener"
+                                    target=" _blank"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/julioceferbar/" title="linklk" rel="noopener"
+                                    target=" _blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://www.instagram.com/ju10_ces4r/" title="linkit" rel="noopener"
+                                    target=" _blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://web.whatsapp.com/send?phone=5511949314415text=" title="linkwt"
+                                    rel="noopener" target="
                                     _blank"><i class="fab fa-whatsapp"></i></a>
                             </div>
                         </div>
